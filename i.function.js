@@ -86,7 +86,19 @@
 // ? WAF that accepts first name and last name as input
 // ? and returns full name
 
-const getFullName = (firstName, lastName) => `${firstName} ${lastName}`;
+// const getFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-const result = getFullName('Ram', 'Yadav');
-console.log(result);
+// const result = getFullName('Ram', 'Yadav');
+// console.log(result);
+
+// ? call back function
+// ? function which is passed as a parameter to another function
+
+// const doSum = (x, y, print) => {
+//   let sum = x + y;
+//   print(sum);
+// };
+
+// doSum(10, 20, (value) => {
+//   console.log(value);
+// });
