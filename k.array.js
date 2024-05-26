@@ -92,27 +92,27 @@ let numList = [200, 300, 500];
 
 // console.log(newWords);
 
-const washingMachineList = [
-  {
-    brand: 'LG',
-    price: 999,
-  },
+// const washingMachineList = [
+//   {
+//     brand: 'LG',
+//     price: 999,
+//   },
 
-  {
-    brand: 'Samsung',
-    price: 899,
-  },
+//   {
+//     brand: 'Samsung',
+//     price: 899,
+//   },
 
-  {
-    brand: 'Whirlpool',
-    price: 1199,
-  },
-];
+//   {
+//     brand: 'Whirlpool',
+//     price: 1199,
+//   },
+// ];
 // ? increase price of each item by 50
-const newList = washingMachineList.map((item, index, array) => {
-  let newPrice = item.price + 50;
+// const newList = washingMachineList.map((item, index, array) => {
+//   let newPrice = item.price + 50;
 
-  return { brand: item.brand, price: newPrice };
-});
+//   return { brand: item.brand, price: newPrice };
+// });
 
-console.log(newList);
+// console.log(newList);
